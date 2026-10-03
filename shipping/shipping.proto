@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package shipping;
+
+option go_package = "github.com/codercollo/ecommerce/golang/shipping";
+
