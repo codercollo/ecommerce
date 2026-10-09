@@ -23,7 +23,7 @@ func GetApplicationPort() int {
 	// Parse string port to integer and fail on invalid format
 	port, err := strconv.Atoi(portSrt)
 	if err != nil {
-		log.Fatalf("port: %s is invalid", &portSrt)
+		log.Fatalf("port: %s is invalid", portSrt)
 	}
 
 	return port

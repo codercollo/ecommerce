@@ -14,9 +14,9 @@ import (
 
 // Adapter connects gRPC network transport requests to the internal API port/
 type Adapter struct {
-	api  ports.APIPort
-	port int
-	order.UnimplementedOrderServer
+	api                            ports.APIPort
+	port                           int
+	order.UnimplementedOrderServer // Forwad compatibility support
 }
 
 // NewAdapter constructs a new gRPC server adapter instance.
