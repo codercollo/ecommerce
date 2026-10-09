@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/codercollo/ecommerce/golang/order"
-	"github.com/codercollo/ecommerce/order/internal/application/domain"
+	"github.com/codercollo/ecommerce/order/internal/application/core/domain"
 )
 
 // Create handles the gRPC CreateOrder request, translating Protobug types to domain models.

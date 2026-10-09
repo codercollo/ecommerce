@@ -1,6 +1,6 @@
 package ports
 
-import "github.com/codercollo/ecommerce/order/internal/application/domain"
+import "github.com/codercollo/ecommerce/order/internal/application/core/domain"
 
 // DBPort defines the outbound database storage contract.
 type DBPort interface {
