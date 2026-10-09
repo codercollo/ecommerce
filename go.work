@@ -1,6 +1,10 @@
 go 1.25.5
 
 use (
-	.
 	./golang/order
+	./golang/payment
+	./golang/shipping
+	./order
+	./payment
+	./shipping
 )
